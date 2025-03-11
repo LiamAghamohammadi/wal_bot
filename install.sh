@@ -47,7 +47,7 @@ remove_wal_bot() {
 while true; do
     clear
     echo -e "${CYAN}========================================${NC}"
-    echo -e "${CYAN}      Wal Bot Installer  |  @primez_dev ${NC}"
+    echo -e "${CYAN}      Wal Bot Installer  |  @Torrent_Baz ${NC}"
     echo -e "${CYAN}========================================${NC}"
     echo -e "${GREEN} 1.   Install Wal Bot${NC}"
     echo -e "${YELLOW} 2.   Update Wal Bot${NC}"
