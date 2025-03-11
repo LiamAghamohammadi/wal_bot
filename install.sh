@@ -14,9 +14,9 @@ install_wal_bot() {
     sudo apt update && sudo apt upgrade -y
     curl -fsSL https://get.docker.com | sh
     sudo mkdir -p "$INSTALL_DIR/data"
-    sudo curl -o "$INSTALL_DIR/docker-compose.yml" https://raw.githubusercontent.com/primeZdev/wal_bot/main/docker-compose.yml
+    sudo curl -o "$INSTALL_DIR/docker-compose.yml" https://raw.githubusercontent.com/LiamAghamohammadi/wal_bot/main/docker-compose.yml
     cd "$INSTALL_DIR"
-    sudo curl -o .env https://raw.githubusercontent.com/primeZdev/wal_bot/main/.env.example
+    sudo curl -o .env https://raw.githubusercontent.com/LiamAghamohammadi/wal_bot/main/.env.example
     sudo nano .env
     sudo docker compose up -d
     echo -e "${GREEN}Wal Bot installed successfully!${NC}"
